@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-learning Courses</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>E-learning Platform</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="course">
+      <div class="course">
+        <img src="python.jpg" alt="Python Course">
+        <div class="course-info">
+          <h2>Python Programming</h2>
+          <p>Learn Python from scratch to advanced topics.</p>
+        </div>
+      </div>
+      <div class="course">
+        <img src="java.jpg" alt="Java Course">
+        <div class="course-info">
+          <h2>Java Programming</h2>
+          <p>Explore Java programming language and concepts.</p>
+        </div>
+      </div>
+      <div class="course">
+        <img src="webdev.jpg" alt="Web Development Course">
+        <div class="course-info">
+          <h2>Web Development</h2>
+          <p>Build websites using HTML, CSS, and JavaScript.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="navigation">
+      <button onclick="prevCourse()">Previous</button>
+      <button onclick="nextCourse()">Next</button>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 E-learning Platform. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
